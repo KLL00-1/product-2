@@ -1,0 +1,338 @@
+body {
+  background-color: black;
+  font-family: "Versa", arial;
+  color: white;
+}
+a:hover {
+  box-shadow: 0 0 10px white;
+}
+header nav ul li a:hover {
+  text-shadow: 0 0 10px white;
+  box-shadow: none;
+}
+.WHITEPAPER:hover {
+  box-shadow: 0 0 10px white;
+  text-shadow: none;
+}
+a {
+  transition: 0.4s;
+}
+:root {
+  --index: calc(1vw + 1vh);
+}
+img {
+  max-width: 100%;
+}
+/* __________block_1 header/nav_menu__________ */
+
+header {
+  background: no-repeat;
+  background-image: url(images/Planet\ 1+Ground.svg);
+  background-position-x: center;
+  background-size: 140vh;
+  max-width: 1600px;
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+/* __________backgroud for header_______________ */
+
+/* _______________________________________________ */
+.navi {
+  width: 100%;
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav ul {
+  display: flex;
+}
+header nav ul li a {
+  padding-left: 35px;
+  color: white;
+  font-family: "Anton", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+}
+.Home {
+  padding-left: 0;
+}
+.WHITEPAPER {
+  color: black;
+  background-color: #f15641;
+  padding: 9.5px 24.5px 9.5px;
+  margin-left: 35px;
+  border-radius: 5px;
+  font-size: 16px;
+
+  line-height: 24px;
+  letter-spacing: 0.145em;
+}
+.MARKETPLACE {
+  color: #0064c0;
+}
+/* ______block_1 center content_____ */
+.center_content {
+  text-align: center;
+  margin-bottom: -150px;
+  z-index: 1;
+}
+.center_content h1 {
+  font-size: 80px;
+  line-height: 96px;
+  font-style: normal;
+  font-weight: 400;
+  background: -moz-linear-gradient(8deg, #f5f5f5, #d1d0d0);
+  margin-bottom: 38px;
+}
+.center_content h2 {
+  margin-bottom: 10px;
+  font-family: "Anton";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 53px;
+  color: #a8d5ff;
+}
+.center_content a {
+  color: white;
+  padding: 12px 33.6px;
+  font-family: "Anton";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 139.5%;
+  letter-spacing: 0.205em;
+}
+.center_content a:not(:last-child) {
+  border: 1px solid white;
+  margin-right: 10px;
+}
+.center_content a:last-child {
+  background-color: #0064c0;
+  border: 1px solid #0064c0;
+  margin-left: 10px;
+  padding: 12px 23.6px;
+}
+.cat_dog {
+  text-align: center;
+  margin-bottom: 90px;
+}
+.cat_dog img {
+  max-width: 90%;
+}
+
+.solana {
+  position: absolute;
+  right: 3%;
+  bottom: 3%;
+}
+/* ___________block_2______________ */
+.block_2 {
+  position: relative;
+  max-width: 1800px;
+  margin: 0 auto;
+}
+.blockchain_symbols {
+  text-align: center;
+}
+/* ____________block_2_fon__________ */
+.planet_dog_tower {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.Fone_lighting_dog_tower {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.planet3 {
+  position: absolute;
+  bottom: 0;
+}
+.fon_planet3 {
+  position: absolute;
+  bottom: 0;
+  right: 40vw;
+}
+/* ____________________________________ */
+
+.about_game {
+  margin-left: 100px;
+  margin-top: 250px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.info_game {
+  max-width: 650px;
+  z-index: 1;
+}
+.about_game span {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 110.13%;
+  letter-spacing: 0.05em;
+}
+.about_game h2 {
+  font-family: "Anton";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 72px;
+  letter-spacing: -0.01em;
+}
+.about_game p {
+  font-family: "Play", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  text-transform: capitalize;
+  margin-bottom: 80px;
+}
+.about_game a {
+  font-family: "Anton";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.065em;
+  color: #f15641;
+  padding: 9.5px 30px;
+  border: 1px solid #f15641;
+  border-radius: 5px;
+}
+.about_nft {
+  margin-top: 112px;
+}
+.info_nft {
+  max-width: 450px;
+  z-index: 1;
+}
+.info_nft a {
+  color: #0064c0;
+  padding: 9.5px 24px;
+  border: 1px solid #0064c0;
+}
+.scroll_bar {
+  z-index: 1;
+}
+/* _________block_3_____________ */
+.block_3 {
+  text-align: center;
+  max-width: 1800px;
+  margin: 200px auto 0;
+}
+.block_3 h2,
+.block_4 h2,
+.road_map_team h2 {
+  font-family: "Anton";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 110.13%;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #0064c0;
+  margin-bottom: 74px;
+}
+.platform_info {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.app {
+  padding: 10px;
+}
+/* _________block_4___________ */
+.block_4 {
+  max-width: 1800px;
+  margin: 260px auto 0;
+  text-align: center;
+}
+.tokenomic {
+  margin-top: 150px;
+}
+/* _________road_map_team_____________ */
+.road_map_team {
+  margin: 245px auto 0;
+  text-align: center;
+  position: relative;
+  max-width: 1800px;
+}
+/* ______fon_ road_map_team____________ */
+.fon {
+  z-index: -1;
+}
+.fon_stars {
+  position: absolute;
+  top: -40vh;
+  left: 0;
+  z-index: -2;
+}
+.planet4 {
+  position: absolute;
+  opacity: 30%;
+  right: 0;
+  bottom: 40vh;
+}
+.fon_planet4 {
+  position: absolute;
+}
+/* ____________________________________ */
+.road_map_team h2:first-child {
+  margin-bottom: 136px;
+}
+.road_map {
+  margin-bottom: 210px;
+}
+.team {
+  margin-top: 174px;
+  padding-top: 58px;
+  padding-bottom: 40px;
+}
+.road_map_team h2 {
+  color: #f15641;
+}
+/* ________footer________________ */
+footer {
+  margin-top: 384px;
+  background: linear-gradient(95deg, #00257083, #f1564157);
+  padding: 50px 0 0;
+}
+.final_content {
+  display: flex;
+  max-width: 1570px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+.spans span:nth-child(2) {
+  margin-left: 47px;
+}
+.final_logo {
+  text-align: center;
+}
+.final_logo span,
+.final_logo img {
+  display: block;
+  margin: 0 auto;
+}
+.final_logo span {
+  margin: 42px auto;
+}
+.img_links a:not(:first-child) {
+  margin-left: 32px;
+}
+.img_links a:hover {
+  box-shadow: none;
+}
